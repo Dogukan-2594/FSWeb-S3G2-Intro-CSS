@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto Mono', monospace;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+ nav a{
+    background:   #5ED3EB;
+    padding: 1% 2%;
+    border-radius: 10px;
+    margin: 0 10%;
+    color: white;
+    text-decoration: none;
+
+
+}
+nav a:first-child{
+    background:   #FF764E;
+    padding: 1% 2%;
+    border-radius: 10px;
+    margin: 0 6% 0 3%;
+    color: white;
+    text-decoration: none;
+}
+ nav a:last-child{
+    background: #FFCD69;
+    padding: 1% 2%;
+    border-radius: 10px;
+    margin: 0 3% 0 6%;
+    color: white;
+    text-decoration: none;
+}
+header{
+    height: 50px;
+}
+ header nav{
+    height: 50px;
+    margin-top: 20px;
+}
+main img{
+    width: 200px;
+    display: inline-block;
+    border-radius: 200px;
+    height: 200px;
+    vertical-align: middle;
+
+
+}
+main div{
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 24px;
+}
+main{
+    padding: 50px 0px;
+    display: block;
+   
+}
+#main-text{
+    background:  #DDB9A3;
+    padding: 0.5% 1%;
+}
+.feature{
+    width:45%;
+    margin: 4% auto;
+}
+.feature img{
+    width: 25%;
+    margin: 0 35%;
+    
+}
+footer {
+    background:  #F9E7DC;
+    height: 300px;
+}
+footer div{
+    height: 150px;
+    background-image: url("./assets/footer_img.jpg");
+    background-size: cover;
+    background-position: 10%;
+}
+footer nav {
+    padding-top: 2%;
+     border-radius: 10px;
+    margin: 0 10%;
+    color: white;
+    text-decoration: none;
+    
+}
+.feature span{
+    font-weight: bold;
+}
